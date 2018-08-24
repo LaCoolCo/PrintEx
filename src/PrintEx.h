@@ -21,6 +21,9 @@
 
 ********************************************************************************/
 
+#ifndef PRINTEX_H
+#define PRINTEX_H
+
 #define PRINTEX_VERSION        10200
 
 #include "lib/MemoryPrinter.h"
@@ -58,4 +61,5 @@
             StreamEx streamer = stream;
             return streamer >> data, stream;
     }
+#endif
 #endif
